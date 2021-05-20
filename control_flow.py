@@ -4,6 +4,10 @@ weather = "sunny"
 
 if weather == "sunny": # If this condition is 'True' execute the next line of code
     print("Enjoy the weather! ") # If 'True' this line will be executed
+if weather != "sunny":
+    print("Wait for it to be sunny again!")
+if weather == "cloudy":
+    print("Let us hope it does not rain!")
 elif weather == "raining":
     print("Take a umbrella!")
 else:
